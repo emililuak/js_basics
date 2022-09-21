@@ -1,19 +1,22 @@
 /**
- * documanetaion
- * comment
- * style
+ * datatypes
+ *
+ * primitives - integer, float
+ * objects
+ *
+ * variables = var, let, const
+ *
+ * let variableName = value // mutuable
+ * const constName = value // immutable
  */
 
-// this is simple comment
-/*
-console.log("second row")
-console.log("second row")
-console.log("third row") */
+let numberOne = prompt()
+let numberTwo = 2.5
+const season = "Autumn"
+// season = "Spring" ! error
+console.log(numberOne + numberTwo)
+console.log(season + season)
 
-console.log("second row")
-console.log("second row")
-console.log("third row")
-console.log("third row")
 
 
 
