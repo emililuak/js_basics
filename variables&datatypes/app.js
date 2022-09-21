@@ -10,13 +10,10 @@
  * const constName = value // immutable
  */
 
-let numberOne = prompt()
-let numberTwo = 2.5
-const season = "Autumn"
-// season = "Spring" ! error
-console.log(numberOne + numberTwo)
-console.log(season + season)
-
+let aasta = 2016
+let president = "Kersti Kaljulaid"
+let lause_keskosa = ". aastal valiti Eesti presidendiks"
+let lause
 
 
 
