@@ -1,7 +1,9 @@
-let ainepuntkid = Number(prompt("ainepuntkid: "))
-let nadalad = Number(prompt("Sisetage nadalad: "))
+let inimesed = 100
+let busskoht = 50
 
-let tunnid = ainepuntkid * 26
-let nadalastoimetan = Math.cell(tunnid / nadalad)
+let busstäidetud = Math.floor (inimesed / busskoht)
+let mahajaanud = inimesed % busskoht
 
-console.log(nadalastoimetan)
+
+console.log(inimesed + " inimese sõidutamiseks on vaja " + busstäidetud + " bussi ja " + mahajaanud + " inimest on jäänud maha.")
+
