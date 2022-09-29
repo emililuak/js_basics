@@ -1,6 +1,15 @@
-let täring_arv = Number(prompt("sisesta vajalik täringute arv: "))
+let poial_poisid = Number(prompt("Mitu pöialpoissi tahab õuna?: "))
 
-for (let kord = 1; kord <= täring_arv; kord++){
-    let täring = Math.ceil(Math.random() * 6)
-    console.log(täring)
+lumivalgekeounad = 14
+let poialpoiss = 1
+while(poialpoiss <= poial_poisid){
+    let ounad = Math.ceil(Math.random() * 2)
+    console.log(ounad)
+    lumivalgekeounad -= ounad
+    poialpoiss++
 }
+console.log(`lumivalgekesele jäi ${lumivalgekeounad}`)
+
+
+
+
