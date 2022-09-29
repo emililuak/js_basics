@@ -1,9 +1,30 @@
-let inimesed = 100
-let busskoht = 50
+// for
+/*
+for (let nimi = algväärtus; tingimus; suurendamine/vähendamine){
+    tegevused, mis sooritatakse korduvalt
+}
 
-let busstäidetud = Math.floor (inimesed / busskoht)
-let mahajaanud = inimesed % busskoht
+while(tingimus){
+    tegeuvsed, mis sooritatakse korduvalt
+}
+    */
 
 
-console.log(inimesed + " inimese sõidutamiseks on vaja " + busstäidetud + " bussi ja " + mahajaanud + " inimest on jäänud maha.")
 
+for (let number = 1; number <= 10; number++){
+    if(number == 5){
+        //console.log(number)
+        //break;
+        break;
+    }
+    console.log(number)
+}
+console.log("for tsükli töö lõpp")
+
+let kord = 1
+while(kord <= 10){
+    console.log(kord)
+    kord++
+
+}
+console.log("wihle tsükli lõpp")
