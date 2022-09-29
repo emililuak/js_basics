@@ -1,30 +1,9 @@
-// for
-/*
-for (let nimi = algväärtus; tingimus; suurendamine/vähendamine){
-    tegevused, mis sooritatakse korduvalt
-}
+let kordamise_arv = Number(prompt("Sisestage, mitu x äratada: "))
 
-while(tingimus){
-    tegeuvsed, mis sooritatakse korduvalt
-}
-    */
-
-
-
-for (let number = 1; number <= 10; number++){
-    if(number == 5){
-        //console.log(number)
-        //break;
-        break;
-    }
-    console.log(number)
-}
-console.log("for tsükli töö lõpp")
-
-let kord = 1
-while(kord <= 10){
-    console.log(kord)
+let kord = 1 // tsükli juhtimismuutuja algväärtus
+//korduvad tegevused
+while(kord <= kordamise_arv){
+    console.log(`Tõuse ja sära - ${kord}. kord!`)
     kord++
-
 }
-console.log("wihle tsükli lõpp")
+console.log("Programmi lõpp")
